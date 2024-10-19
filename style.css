@@ -107,12 +107,12 @@ nav ul li {
 @media (max-width: 770px) {
   .firstSection {
     flex-direction: column;
-    height: 70vh;
+    height: 67vh;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 670px) {
   .firstSection {
-    height: 80vh;
+    height: 60vh;
   }
 }
 #articleParagraf {
@@ -134,28 +134,32 @@ nav ul li {
   #articleParagraf p {
     font-size: 2.1vw;
   }
+  .firstSection {
+    height: 55vh;
+  }
 }
 #articleImg img {
-  width: 25vw;
-  height: 45vh;
+  width: 22.5vw;
 }
 
+@media (max-width: 850px) {
+  #articleImg img {
+    width: 30vw;
+  }
+  #articleParagraf p {
+    font-size: 1.8vw;
+  }
+}
 @media (max-width: 770px) {
   #articleImg img {
     width: 35vw;
-    height: 39vh;
+    height: 33vh;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 600px) {
   #articleImg img {
-    width: 34vw;
-    height: 40vh;
-  }
-}
-@media (max-width: 500px) {
-  #articleImg img {
-    width: 36vw;
-    height: 44vh;
+    width: 35vw;
+    height: 33vh;
   }
 }
 .segundSection {
@@ -170,6 +174,11 @@ nav ul li {
 @media (max-width: 770px) {
   .segundSection {
     flex-direction: column;
+    height: 70vh;
+  }
+}
+@media (max-width: 650px) {
+  .segundSection {
     height: 65vh;
   }
 }
@@ -237,7 +246,7 @@ nav ul li {
 }
 footer {
   width: 100%;
-  height: 14vh;
+  height: 15vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -245,27 +254,26 @@ footer {
 }
 
 footer div {
-  width: 40vw;
-  height: 14vh;
-  display: flex;
-  justify-content: space-between;
+  width: 70vw;
+  display: block;
+  justify-content: center;
   align-items: center;
-}
-footer div p {
-  font-size: 13px;
-  color: #E4EEF1;
-  font-weight: 500;
   text-align: center;
 }
+footer div p {
+  font-size: 13.5px;
+  color: #E4EEF1;
+  font-weight: 500;
+}
 
-footer article {
-  width: 25vw;
+footer nav {
+  width: 20vw;
   height: 12vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-footer article img {
+footer nav img {
   width: 4vw;
   height: 5.7vh;
   cursor: pointer;
@@ -279,23 +287,48 @@ footer img {
 @media (max-width: 770px) {
   footer {
     flex-direction: column;
-    height: 45vh;
+    height: 35vh;
+  }
+  footer div {
+    margin-bottom: 1vh;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 570px) {
   footer div {
     margin-bottom: 2vh;
   }
   footer div p {
     font-size: 12px;
   }
-  footer img {
-    height: 9vh;
+  footer {
+    height: 34vh;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 470px) {
   footer div p {
     font-size: 11px;
+  }
+  footer {
+    height: 30vh;
+  }
+}
+@media (max-width: 425px) {
+  footer div p {
+    font-size: 10.5px;
+  }
+}
+footer img {
+  height: 9vh;
+}
+
+@media (max-width: 405px) {
+  footer div p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 221px) {
+  footer div p {
+    font-size: 9.5px;
   }
 }
 #textBox {

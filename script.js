@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const textBox = document.getElementById("textBox");
   const words = {
-    box1: "A campanha Outubro Rosa é um movimento internacional que visa conscientizar sobre o câncer de mama e o câncer do colo do útero, promovendo a prevenção, o diagnóstico precoce e o tratamento.",
-    box2: "A conscientização sobre o câncer de mama é feita por meio de campanhas como o Outubro Rosa, que acontece anualmente desde os anos 1990. O objetivo é divulgar informações sobre a doença, promover o diagnóstico precoce.",
-    box3: "Realizar o autoexame das mamas uma vez por mês, principalmente após a menstruação. O autoexame não diagnostica o câncer, mas ajuda a identificar alterações e a saber o que é normal. Fazer mamografias regularmente.",
+    boxS: "A campanha Outubro Rosa é um movimento internacional que visa conscientizar sobre o câncer de mama e o câncer do colo do útero, promovendo a prevenção, o diagnóstico precoce e o tratamento.",
+    boxC: "A conscientização sobre o câncer de mama é feita por meio de campanhas como o Outubro Rosa, que acontece anualmente desde os anos 1990. O objetivo é divulgar informações sobre a doença, promover o diagnóstico precoce.",
+    boxD: "Realizar o autoexame das mamas uma vez por mês, principalmente após a menstruação. O autoexame não diagnostica o câncer, mas ajuda a identificar alterações e a saber o que é normal. Fazer mamografias regularmente.",
   };
 
   document.querySelectorAll(".box").forEach((word) => {
