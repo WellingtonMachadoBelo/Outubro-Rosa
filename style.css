@@ -149,10 +149,13 @@ nav ul li {
     height: 45vh;
   }
 }
-#articleImg img {
-  width: 22.5vw;
+#articleImg{
+     
+    img{
+       width: 20vw;
+    
+    }
 }
-
 @media (max-width: 850px) {
   #articleParagraf p {
     font-size: 1.8vw;
