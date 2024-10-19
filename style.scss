@@ -127,7 +127,7 @@ nav ul li{
 @media(max-width: 770px) {
    .firstSection{
     flex-direction: column;
-    height: 65vh;
+    height: 68vh;
    }
    #articleParagraf p{
     font-size: 1.9vw;   
@@ -135,10 +135,11 @@ nav ul li{
    }
 }
 
-@media(max-width: 670px) {
+@media(max-width: 650px) {
     .firstSection{
-     height: 60vh;
+     height: 65vh;
     }
+   
  }
 
     
@@ -160,31 +161,34 @@ nav ul li{
      font-size: 2.1vw;   
     }
     .firstSection{
-        height: 53vh;
+        height: 60vh;
        }
+   
    }
 
    @media(max-width: 400px) {
      .firstSection{
-        height: 50vh;
+        height: 55vh;
        }
        #articleParagraf p{
         font-size: 2.2vw;   
        }
-    
+        
    }
 
    @media(max-width: 300px) {
     .firstSection{
-       height: 45vh;
+       height: 50vh;
       }
+    
   }
 
+  
 
 #articleImg{
      
     img{
-       width: 22.5vw;
+       width: 20vw;
     
     }
 }
@@ -199,11 +203,12 @@ nav ul li{
 
 @media(max-width: 770px) {
     #articleImg img{
-        width: 35vw;
-        height: 33vh;
+        width: 33vw;
+        height: 38vh;
     } 
    
 }
+
 
 
 .segundSection{
@@ -343,15 +348,20 @@ footer div{
      justify-content: center;
      align-items: center;
      text-align: center;
-      
+    
+     
+       
      p{
         font-size: 13.5px;
         color: #E4EEF1;
         font-weight: 500;
-    
+       
+      
       }
    
     }
+
+
 
 footer nav {
     width: 20vw;
